@@ -129,19 +129,23 @@
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="AccountHandler.cpp" />
-    <ClCompile Include="Functor.cpp" />
-    <ClCompile Include="InheritAssignOperation.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SortFuntor.cpp" />
-    <ClCompile Include="StableConstArraySolu.cpp" />
+    <ClCompile Include="String.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
+    <ClInclude Include="AccountException.h" />
     <ClInclude Include="AccountHandler.h" />
     <ClInclude Include="BankingCommonDecl.h" />
+    <ClInclude Include="BoundCheckArray.h" />
+    <ClInclude Include="CanPlaceFlowers.h" />
+    <ClInclude Include="GreatestCommonDivisorOfString.h" />
     <ClInclude Include="HighCreditAccount.h" />
+    <ClInclude Include="KidsWithCandies.h" />
+    <ClInclude Include="MergeStringAlternately.h" />
     <ClInclude Include="NormalAccount.h" />
-    <ClInclude Include="TestFunctor.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="TwoSum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

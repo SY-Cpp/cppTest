@@ -1,21 +1,22 @@
 #include "BankingCommonDecl.h"
 #include "Account.h"
+#include "AccountException.h"
 
-Account::Account(int ID, int money, char* name)
+Account::Account(int ID, int money, String name)
 	:accID(ID), balance(money)
 {
-	cusName = new char[strlen(name) + 1];
-	strcpy(cusName, name);
+	cusName = name;
 
 }
-
+/*
 Account::Account(const Account& ref)
 	: accID(ref.accID), balance(ref.balance)
 {
 	cusName = new char[strlen(ref.cusName) + 1];
 	strcpy(cusName, ref.cusName);
 }
-
+*/
+/*
 Account& Account::operator=(const Account& ref) 
 {
 	accID = ref.accID;
@@ -27,6 +28,10 @@ Account& Account::operator=(const Account& ref)
 	return *this;
 }
 
+Account::~Account() {
+	delete[]cusName;
+}
+*/
 
 int Account::GetAccID() const
 {
@@ -35,6 +40,10 @@ int Account::GetAccID() const
 
 void Account::Deposit(int money)
 {
+	if(money < 0)
+	{
+		throw MinusException(money);
+	}
 	balance += money;
 }
 
@@ -52,7 +61,4 @@ void Account::ShowAccInfo() const
 	cout << "°èÁÂID: " << accID << endl;
 	cout << "ÀÌ ¸§: " << cusName << endl;
 	cout << "ÀÜ ¾×: " << balance << endl;
-}
-Account::~Account() {
-	delete[]cusName;
 }
