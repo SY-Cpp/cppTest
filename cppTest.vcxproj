@@ -130,6 +130,7 @@
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="AccountHandler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaxOperations.cpp" />
     <ClCompile Include="String.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -139,11 +140,19 @@
     <ClInclude Include="BankingCommonDecl.h" />
     <ClInclude Include="BoundCheckArray.h" />
     <ClInclude Include="CanPlaceFlowers.h" />
+    <ClInclude Include="Compress.h" />
     <ClInclude Include="GreatestCommonDivisorOfString.h" />
     <ClInclude Include="HighCreditAccount.h" />
+    <ClInclude Include="IncreasingTriplet.h" />
+    <ClInclude Include="IsSubsequence.h" />
     <ClInclude Include="KidsWithCandies.h" />
+    <ClInclude Include="MaxArea.h" />
     <ClInclude Include="MergeStringAlternately.h" />
+    <ClInclude Include="MoveZeroes.h" />
     <ClInclude Include="NormalAccount.h" />
+    <ClInclude Include="ProductExceptSelf.h" />
+    <ClInclude Include="ReverseWords.h" />
+    <ClInclude Include="RreverseVowels.h" />
     <ClInclude Include="String.h" />
     <ClInclude Include="TwoSum.h" />
   </ItemGroup>

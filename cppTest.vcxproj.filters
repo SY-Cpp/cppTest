@@ -27,6 +27,9 @@
     <ClCompile Include="String.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MaxOperations.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h">
@@ -66,6 +69,30 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="CanPlaceFlowers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RreverseVowels.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseWords.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductExceptSelf.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IncreasingTriplet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Compress.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveZeroes.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IsSubsequence.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxArea.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
