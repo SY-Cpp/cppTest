@@ -5,28 +5,33 @@
 #include <vector>
 
 #include <sstream>	// stringstream 
+#include <float.h>	// DBL_MAX
 
 using namespace std;
 
 /**
 
-
 EX
+
 
 Constraints
 
 
 **/
 
-#define INPUT_DATA	{3,1,3,4,3}
+#define INPUT_DATA	{5}
 
-#define INPUT_DATA2 6
+#define INPUT_DATA2 1
+
+
 
 int main(void) {
 	vector<int> data = INPUT_DATA;
 	int k = INPUT_DATA2;
+	double i = 51.0, j = 4.0;
+	double z = k;
 
-	//cout << maxOperations(data,k) << endl;
+	//cout << findMaxAverage(data,k) << endl;
 
 
 	return 0;

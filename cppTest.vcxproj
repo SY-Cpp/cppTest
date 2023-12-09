@@ -141,6 +141,7 @@
     <ClInclude Include="BoundCheckArray.h" />
     <ClInclude Include="CanPlaceFlowers.h" />
     <ClInclude Include="Compress.h" />
+    <ClInclude Include="FindMaxAverage.h" />
     <ClInclude Include="GreatestCommonDivisorOfString.h" />
     <ClInclude Include="HighCreditAccount.h" />
     <ClInclude Include="IncreasingTriplet.h" />
