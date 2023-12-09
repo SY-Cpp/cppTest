@@ -16,23 +16,17 @@ EX
 
 Constraints
 
-
 **/
 
-#define INPUT_DATA	{5}
-
-#define INPUT_DATA2 1
-
+#define INPUT_DATA	""
+#define INPUT_DATA2 10
 
 
 int main(void) {
-	vector<int> data = INPUT_DATA;
+	string data = INPUT_DATA;
 	int k = INPUT_DATA2;
-	double i = 51.0, j = 4.0;
-	double z = k;
-
-	//cout << findMaxAverage(data,k) << endl;
-
+	
+	//cout << maxVowels(data,k) << endl;
 
 	return 0;
 }

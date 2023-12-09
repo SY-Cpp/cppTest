@@ -148,6 +148,7 @@
     <ClInclude Include="IsSubsequence.h" />
     <ClInclude Include="KidsWithCandies.h" />
     <ClInclude Include="MaxArea.h" />
+    <ClInclude Include="MaxVowels.h" />
     <ClInclude Include="MergeStringAlternately.h" />
     <ClInclude Include="MoveZeroes.h" />
     <ClInclude Include="NormalAccount.h" />
