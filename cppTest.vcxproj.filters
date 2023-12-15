@@ -101,5 +101,17 @@
     <ClInclude Include="MaxVowels.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="LongestOnes.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestSubarray.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LargestAltitude.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PivotIndex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

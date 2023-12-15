@@ -147,11 +147,15 @@
     <ClInclude Include="IncreasingTriplet.h" />
     <ClInclude Include="IsSubsequence.h" />
     <ClInclude Include="KidsWithCandies.h" />
+    <ClInclude Include="LargestAltitude.h" />
+    <ClInclude Include="LongestOnes.h" />
+    <ClInclude Include="LongestSubarray.h" />
     <ClInclude Include="MaxArea.h" />
     <ClInclude Include="MaxVowels.h" />
     <ClInclude Include="MergeStringAlternately.h" />
     <ClInclude Include="MoveZeroes.h" />
     <ClInclude Include="NormalAccount.h" />
+    <ClInclude Include="PivotIndex.h" />
     <ClInclude Include="ProductExceptSelf.h" />
     <ClInclude Include="ReverseWords.h" />
     <ClInclude Include="RreverseVowels.h" />
